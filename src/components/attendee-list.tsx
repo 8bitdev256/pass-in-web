@@ -52,7 +52,7 @@ export function AttendeeList() {
     }
 
     useEffect(() => {
-        const url = new URL('http://localhost:8080/events/attendees/ae2cbc62-ad54-4ffb-871b-693184db0033')
+        const url = new URL('http://localhost:8080/events/attendees/d818bbec-acd0-4bbb-aef7-e8c7befd9ff1')
 
         url.searchParams.set('pageIndex', String(page - 1))
 
